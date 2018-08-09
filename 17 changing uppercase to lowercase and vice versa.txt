@@ -1,0 +1,25 @@
+import java.io.*;
+class prog5
+{
+public static void void main(String ar)
+{
+
+System.out.println("Enter the string");
+String s1 = "ahDHeR";
+String s2="";
+int i,l;
+char ch;
+l=s.length();
+for(i=0;i<l;i++)
+{
+ch=s.charAt(i);
+if(Character.isUpperCase(ch))
+	s2=s2+Character.toLowerCase(ch);
+else 
+	s2=s2+Character.toUpperCase(ch);
+
+}
+
+System.out.println(s2);
+}
+}

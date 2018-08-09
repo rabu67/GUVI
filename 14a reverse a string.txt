@@ -1,0 +1,19 @@
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+ 
+// Class of ReverseString
+class ReverseString
+{
+    public static void main(String[] args)
+    {
+        String str = "Geeks for Geeks";
+	String rev_str="";
+        StringBuilder sb = new StringBuilder(str);
+     
+        rev_str=sb.reverse().toString();
+ 
+        // print reversed String
+        System.out.println(rev_str);
+    }
+}
